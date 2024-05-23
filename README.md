@@ -7,10 +7,9 @@ This is designed for **Epita** student, but it can be also be used by other Linu
 
 `~/afs/...`
 
-## Installing the GitSimplifier
+## Installation
 
-
-1. Fist step : `curl -o /tmp/mon_script.sh "$SCRIPT_URL"` 
+1. First step : After cloning the repo `https://github.com/PatrickHlz/GitSimplifier.git`, I recommand you to create a repo like this **PERSONAL_CONFIG** like this `mkdir ~/afs/PERSONAL_CONFIG` and use this command in your **shell**  `echo "source ~/afs/PERSONAL_CONFIG/gall.sh" >> ~/.bashrc`.
 
 use it in your **shell**, in the correct folder (the git one)
 

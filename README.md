@@ -34,6 +34,7 @@ This script is a tool that helps you to go **faster** while you are committing a
 
 + `gall "first argument" "second argument"` will **commit** with your first argument, then create a **tag** with the second argument. **Use a correct pattern for the tag message: archi- or submit-.**
 
++ `gall -h` or `gall --help` this **command** provides **help** documentation for the **gall** function. When executed, it displays usage instructions to guide users on how to use the **gall** function effectively.
 ## Examples
 
 You can use it like this *(Shell example)* :

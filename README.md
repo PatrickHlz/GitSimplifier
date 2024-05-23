@@ -18,7 +18,7 @@ export PATH=$PATH:~/afs/PERSONAL_CONFIG
 alias mygit="~/afs/PERSONAL_CONFIG/git-simplifier.sh"
 
 # Important line
-source ~/afs/PERSONAL_CONFIG/gall.sh
+source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh
 ``` 
 Make sure you have `source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh` in your `.bashrc`.
 

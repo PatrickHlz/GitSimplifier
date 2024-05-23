@@ -9,9 +9,9 @@ This is designed for **Epita** student, but it can be also be used by other Linu
 
 1. First step : I recommand you to create a repo **PERSONAL_CONFIG** like this `mkdir ~/afs/PERSONAL_CONFIG` and clone the repo with `git clone https://github.com/PatrickHlz/GitSimplifier.git` in the new folder. 
 
-2. Use this command in your **shell**  `transfert` while you are un the git repository.
+2. Use this command in your **shell**  `transfert` while you are in the git repository.
 
-Your cat ~/.bashrc must look like this :
+Your `cat ~/.bashrc` must look like this :
 ```sh
 example bash rc Epita
 alias test=ls

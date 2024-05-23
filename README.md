@@ -7,9 +7,9 @@ This is designed for **Epita** student, but it can be also be used by other Linu
 
 ## Installation
 
-1. First step : Clone the repo with `git clone https://github.com/PatrickHlz/GitSimplifier.git`
+1. First step : I recommand you to create a repo **PERSONAL_CONFIG** like this `mkdir ~/afs/PERSONAL_CONFIG` and clone the repo with `git clone https://github.com/PatrickHlz/GitSimplifier.git` in the new folder. 
 
-2. I recommand you to create a repo **PERSONAL_CONFIG** like this `mkdir ~/afs/PERSONAL_CONFIG` and use this command in your **shell**  `echo "source ~/afs/PERSONAL_CONFIG/gall.sh" >> ~/.bashrc`. Change the name if you want.
+2. Use this command in your **shell**  `echo "source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh" >> ~/.bashrc`. Change the name if you want. However, change the path as you want, where the gall.sh is.
 
 Your cat ~/.bashrc must look like this :
 ```sh

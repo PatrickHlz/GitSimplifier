@@ -9,7 +9,12 @@ This is designed for **Epita** student, but it can be also be used by other Linu
 
 1. First step : After cloning the repo `https://github.com/PatrickHlz/GitSimplifier.git`, I recommand you to create a repo like this **PERSONAL_CONFIG** like this `mkdir ~/afs/PERSONAL_CONFIG` and use this command in your **shell**  `echo "source ~/afs/PERSONAL_CONFIG/gall.sh" >> ~/.bashrc`.
 
-use it in your **shell**, in the correct folder (the git one)
+Your cat ~/.bashrc must look like this :
+```sh
+example bash rc Epita
+alias test=ls
+source ~/afs/PERSONAL_CONFIG/gall.sh
+``` 
 
 2. Then
 After installing the folder correctly, you must have a `source ~/afs/CONFIG_PERSO/gall.sh` in your `.bashrc`.

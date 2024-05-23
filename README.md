@@ -6,7 +6,7 @@ This program is working on Arch Linux, and other Linux supported by a bashrc.
 This is designed for Epita student, but it can be also be used by other Linux users by changing the origin [path](DEUXTEST).
 
 
-##TEST
+## TEST
 
 gd
 gd
@@ -20,6 +20,17 @@ d
 g
 dg
 dg
+z
+zd
+zd
+zd
+d
+z
+d
+z
+zdd
 
-##DEUXTEST
+zdzd
+
+## DEUXTEST
 

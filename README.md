@@ -28,7 +28,7 @@ This script is a tool that helps you to go faster while you are committing and p
 
 `gall` *(git all)* is the main function that is called to always **git add .** in your repository.
 
-+ `gall` without an argument will commit and push with a random message. (not recommended; you must follow a commit convention, use it when there is a rush)
++ `gall` without an argument will commit and push with a random message. (**not recommended**; you must follow a **commit convention**, use it when there is a rush)
 
 + `gall "first argument"`  with one argument will commit and push with the message you wanted.
 

@@ -20,8 +20,8 @@ function gall {
     if [[ -z "$2" ]]; then
         echo "----- Push without tag -----"
     else
-        git tag -m "$2" "$commit_message"
+        git tag -ma "$2"
         git push --follow-tags
-        echo "----- Tag created successfully -----"
+        echo "----- Tag created successfully -----" 
     fi
 }

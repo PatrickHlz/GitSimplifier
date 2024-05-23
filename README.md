@@ -24,9 +24,9 @@ Make sure you have `source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh` in your 
 
 ## Guideline
 
-This script is a tool that helps you to go faster while you are committing and pushing your homework. It is open source, so you are free to upgrade it and contribute to make it more efficient for everyone.
+This script is a tool that helps you to go faster while you are committing and pushing your homework. It is open source, so you are free to upgrade it and **contribute** to make it more efficient for everyone.
 
-`gall` *(git all)* is the main function that is called to always git add . in your repository.
+`gall` *(git all)* is the main function that is called to always **git add .** in your repository.
 
 + `gall` without an argument will commit and push with a random message. (not recommended; you must follow a commit convention, use it when there is a rush)
 
@@ -36,7 +36,7 @@ This script is a tool that helps you to go faster while you are committing and p
 
 ## Examples
 
-You can use it like this :
+You can use it like this *(Shell example)* :
 
 ```sh
 /User$ gall

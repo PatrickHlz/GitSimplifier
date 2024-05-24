@@ -6,6 +6,8 @@ function gall {
         return 0
     fi
     
+    #if it is not a git repository, throw an Error message
+
     git add .
 
     if [[ -z "$1" ]]; then 
@@ -16,7 +18,7 @@ function gall {
     
     git commit -m "$commit_message"
     git push
-
+    
     if [[ -z "$2" ]]; then
         echo "----- Push without tag -----"
     else
@@ -24,4 +26,14 @@ function gall {
         git push --follow-tags
         echo "----- Tag created successfully -----" 
     fi
+
+    #test
+
+    git tag -ma "archi-" "$commit_message" #if the user wants to keep the commit message in the tag
+    git tag -ma "submit-" "$commit_message" #same
+    #else
+    git tag -ma "archi-" "$2" #if the user wants to keep the commit message in the tag
+    git tag -ma "submit-" "$2" #same
+
+    #option to change that with a variable *1  
 }

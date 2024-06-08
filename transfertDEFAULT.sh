@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ajouter la commande au fichier .bashrc
-echo "source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh" >> ~/.bashrc
+echo "source ~/PERSONAL_CONFIG/GitSimplifier/gall.sh" >> ~/.bashrc
 echo "Process successfully finished"
 
 # Vérifier si l'ajout de la commande dans .bashrc a réussi

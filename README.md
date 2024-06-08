@@ -5,11 +5,11 @@
 This program works on **Arch Linux** and other **Linux distributions** that support **bashrc**.
 It is designed for **Epita** students but can also be used by other Linux users by changing the **origin path**.
 
-## Installation
-
+## Installation 
+*Note: If you are not an ***EPITA student***, simply remove the ./afs/ directory wherever it appears*
 1. I recommend you create a repo named **PERSONAL_CONFIG** like this: `mkdir ~/afs/PERSONAL_CONFIG` and **clone** the repo with `git clone https://github.com/PatrickHlz/GitSimplifier.git` in the new folder.
 
-2. Use this **command** in your **shell**: `sh transfert.sh` while you are in the **git repository**.
+2. Use this **command** in your **shell**: `sh transfert.sh` while you are in the **git repository**. Use `sh transfert.sh -m` for **non-EPITA students**.
 
 Your `cat ~/.bashrc` must look like this :
 ```sh
@@ -20,7 +20,7 @@ alias mygit="~/afs/PERSONAL_CONFIG/git-simplifier.sh"
 # Important line
 source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh
 ``` 
-Make sure you have `source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh` in your `.bashrc`.
+Make sure you have `source ~/afs/PERSONAL_CONFIG/GitSimplifier/gall.sh` or `source ~/PERSONAL_CONFIG/GitSimplifier/gall.sh` in your `.bashrc`.
 
 ## Guideline
 

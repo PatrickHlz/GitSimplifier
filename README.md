@@ -10,7 +10,9 @@ It is designed for **Epita** students but can also be used by other Linux users 
 1. I recommend you create a repo named **PERSONAL_CONFIG** like this: `mkdir ~/afs/PERSONAL_CONFIG` and **clone** the repo with `git clone https://github.com/PatrickHlz/GitSimplifier.git` in the new folder.
 
 2. Use this **command** in your **shell**: `sh transfert.sh` while you are in the **git repository**. Use `sh transfertDEFAULT.sh` for **non-EPITA students**.
+
 **ATTENTION: the `transfert.sh` script works only if you have created the *PERSONAL_CONFIG* directory. If you have not, modify `transfert.sh` with the appropriate path.** 
+
 Your `cat ~/.bashrc` must look like this :
 ```sh
 # Example of a .bashrc file
